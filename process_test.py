@@ -18,6 +18,3 @@ for i in range(10):
 po.close()
 
 po.join()
-
-print("版本号")
-print("版本号")
