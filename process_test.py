@@ -10,7 +10,7 @@ def work(num):
         print("---pid=%s--%d---%d--"%(os.getpid(),i,num))
     time.sleep(2)
 
-po = Pool(3)
+po = Pool(12)
 
 for i in range(10):
     po.apply_async(work,(i,))

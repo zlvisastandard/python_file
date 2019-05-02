@@ -196,13 +196,32 @@
 # print([i.strip() for i in list])
 
 
-str_res = 'gjkkahhikmakkll'
+# str_res = 'gjkkahhikmakkll'
 
-str_result = str_res.split("a")
+# str_result = str_res.split("a")
+#
+# print(str_result)
+#
+# res = ''.join(str_result)
+#
+# print(res)
 
-res = ''.join(str_result)
+
+# str_res = 'gjkkahhikmakkll'
+#
+# p = str_res.strip('s',)
+#
+# print(p)
+
+
+
+str = "python GOLANG gjgjgHKKHUYjhk"
+
+res = str.lower()
 
 print(res)
 
-
+# res = str.upper()
+#
+# print(res)
 
