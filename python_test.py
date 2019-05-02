@@ -215,13 +215,63 @@
 
 
 
-str = "python GOLANG gjgjgHKKHUYjhk"
-
-res = str.lower()
-
-print(res)
+# str = "python GOLANG gjgjgHKKHUYjhk"
+#
+# res = str.lower()
+#
+# print(res)
 
 # res = str.upper()
 #
 # print(res)
 
+# str = "python\tGOLANG gjgjgHKKHUYjhk"
+# str_res = "python\nGOLANG gjgjgHKKHUYjhk"
+
+# res = str.title()
+#
+# print(res)
+
+# res = str.capitalize()
+#
+# print(res)
+
+# res = str.swapcase()
+#
+# print(res)
+
+# res = str.replace("py","hello")
+#
+# print(res)
+
+# print(str)
+# print(str_res)
+
+# print(str.swapcase())
+# print(str.lower())
+# print(str.upper())
+
+# res = str.split(" ")
+#
+# print(res)
+#
+# result = ''.join(res)
+#
+# print(result)
+
+# res = str.partition("a")
+#
+# print(res)
+
+# print(str.rpartition("b"))
+
+
+# res = "--".join(str)
+#
+# print(res)
+
+str = "   pytahon JAVA goaLANG    s"
+
+res = str.strip("a")
+
+print(res)
