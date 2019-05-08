@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6e6d051-7fcf-4b58-9ef2-aaee3cf0602a" name="Default Changelist" comment="">
+    <list default="true" id="c6e6d051-7fcf-4b58-9ef2-aaee3cf0602a" name="Default Changelist" comment="&quot;3&quot;">
+      <change afterPath="$PROJECT_DIR$/Excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_test_file/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_test_file/selenium_a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_mial_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_mial_test/mail_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_mial_test/send_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_mial_test/send_ok.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_file/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_file/test_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_file/test_quick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest_file/unit_test_b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_file/Model_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_file/add_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/is_prime_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_file/is_prime_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_test_file/selenium_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testlines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threading_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_test_a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_file/unit_test_a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untest.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_file/untest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,46 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_test.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/is_prime_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_selenium.py">
+        <entry file="file://$PROJECT_DIR$/selenium_test_file/selenium_a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model_Class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -82,12 +71,27 @@
         <option value="$PROJECT_DIR$/add_test.py" />
         <option value="$PROJECT_DIR$/is_prime_test.py" />
         <option value="$PROJECT_DIR$/test_selenium.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/unit_test_1.py" />
+        <option value="$PROJECT_DIR$/test_quick.py" />
+        <option value="$PROJECT_DIR$/test_calc.py" />
+        <option value="$PROJECT_DIR$/time_file.py" />
+        <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/Excel.py" />
+        <option value="$PROJECT_DIR$/mail_file.py" />
+        <option value="$PROJECT_DIR$/drever_a.py" />
+        <option value="$PROJECT_DIR$/send_mail.py" />
+        <option value="$PROJECT_DIR$/send_mial_test/send_ok.py" />
+        <option value="$PROJECT_DIR$/TK.py" />
+        <option value="$PROJECT_DIR$/selenium_test_file/selenium_a.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="337" />
+    <option name="y" value="137" />
+    <option name="width" value="862" />
+    <option name="height" value="551" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,11 +107,15 @@
               <item name="python_file" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_file" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_file" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_file" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium_test_file" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,6 +129,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selenium_test_file" />
+      <recent name="$PROJECT_DIR$/unittest_file" />
+      <recent name="$PROJECT_DIR$/send_mial_test" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -132,8 +148,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_selenium">
-    <configuration name="Model_Class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.selenium_a">
+    <configuration name="Excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_file" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +162,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model_Class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="is_prime_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TK" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_file" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,29 +184,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/is_prime_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_file" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TK.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="selenium_a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_file" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,12 +223,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium_test_file" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_selenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium_test_file/selenium_a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +237,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threading_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="send_ok" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_file" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/send_mial_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send_mial_test/send_ok.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_file" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +272,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drever_a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_selenium" />
-        <item itemvalue="Python.path" />
-        <item itemvalue="Python.is_prime_test" />
-        <item itemvalue="Python.Model_Class" />
-        <item itemvalue="Python.threading_test" />
+        <item itemvalue="Python.selenium_a" />
+        <item itemvalue="Python.TK" />
+        <item itemvalue="Python.send_ok" />
+        <item itemvalue="Python.Excel" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +311,11 @@
       <workItem from="1556774389296" duration="5269000" />
       <workItem from="1556795021110" duration="2377000" />
       <workItem from="1556941403078" duration="2000" />
-      <workItem from="1557105377400" duration="548000" />
+      <workItem from="1557105377400" duration="16663000" />
+      <workItem from="1557194545676" duration="2403000" />
+      <workItem from="1557223348974" duration="361000" />
+      <workItem from="1557237687006" duration="387000" />
+      <workItem from="1557238080124" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;3&quot;">
       <created>1556607134536</created>
@@ -335,19 +355,41 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_unit_test_1_mailLogin - 2019.05.06 at 11h 04m 35s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_test_1_mailLogin_test_login_03 - 2019.05.06 at 11h 10m 40s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin.test_login_03" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_test_1_mailLogin_test_login_01 - 2019.05.06 at 11h 12m 17s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin.test_login_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_test_1_mailLogin_test_login_01 - 2019.05.06 at 11h 12m 29s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin.test_login_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_test_1_mailLogin_test_login_03 - 2019.05.06 at 11h 23m 52s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin.test_login_03" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_test_1_mailLogin_test_login_02 - 2019.05.06 at 11h 32m 33s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin.test_login_02" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_unit_test_1_mailLogin - 2019.05.06 at 11h 36m 54s.xml">
+      <configuration name="Unittests for unit_test_1.mailLogin" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18141000" />
+    <option name="totallyTimeSpent" value="37791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="337" y="137" width="862" height="551" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21042831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.46024096" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.5925926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,31 +408,6 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18162163" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.47103658" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.22650602" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -402,21 +419,106 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;3&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_file$test_quick.coverage" NAME="test_quick Coverage Results" MODIFIED="1557114971812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$test_selenium.coverage" NAME="test_selenium Coverage Results" MODIFIED="1557106018766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$threading_test.coverage" NAME="threading_test Coverage Results" MODIFIED="1556804644018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_file$path.coverage" NAME="path Coverage Results" MODIFIED="1557105679870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$Unittests_for_unit_test_1_mailLogin.coverage" NAME="Unittests for unit_test_1.mailLogin Coverage Results" MODIFIED="1557113814236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$send_ok.coverage" NAME="send_ok Coverage Results" MODIFIED="1557197386112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/send_mial_test" />
     <SUITE FILE_PATH="coverage/python_file$python_test.coverage" NAME="python_test Coverage Results" MODIFIED="1556804761635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_file$is_prime_test.coverage" NAME="is_prime_test Coverage Results" MODIFIED="1557105673042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_file$Model_Class.coverage" NAME="Model_Class Coverage Results" MODIFIED="1557105515146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$selenium_a.coverage" NAME="selenium_a Coverage Results" MODIFIED="1557238300364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test_file" />
+    <SUITE FILE_PATH="coverage/python_file$TK.coverage" NAME="TK Coverage Results" MODIFIED="1557223423819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$process_test.coverage" NAME="process_test Coverage Results" MODIFIED="1556804614308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$Unittests_for_unit_test_1_mailLogin_test_login_01.coverage" NAME="Unittests for unit_test_1.mailLogin.test_login_01 Coverage Results" MODIFIED="1557112340182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$1.coverage" NAME="1 Coverage Results" MODIFIED="1557134338809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$Excel.coverage" NAME="Excel Coverage Results" MODIFIED="1557194555793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$path.coverage" NAME="path Coverage Results" MODIFIED="1557105679870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$mail_file.coverage" NAME="mail_file Coverage Results" MODIFIED="1557150037004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$Unittests_for_unit_test_1_mailLogin_test_login_02.coverage" NAME="Unittests for unit_test_1.mailLogin.test_login_02 Coverage Results" MODIFIED="1557113544137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$is_prime_test.coverage" NAME="is_prime_test Coverage Results" MODIFIED="1557105673042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$test.coverage" NAME="test Coverage Results" MODIFIED="1557151422500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$Model_Class.coverage" NAME="Model_Class Coverage Results" MODIFIED="1557110057843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$time_file.coverage" NAME="time_file Coverage Results" MODIFIED="1557129858174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_file$Unittests_for_unit_test_1_mailLogin_test_login_03.coverage" NAME="Unittests for unit_test_1.mailLogin.test_login_03 Coverage Results" MODIFIED="1557113024159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/444.text" />
     <entry file="file://$PROJECT_DIR$/window.py" />
+    <entry file="file://$PROJECT_DIR$/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/unittest_file/unit_test_b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_file/unit_test_a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drever_a.py" />
+    <entry file="file://$PROJECT_DIR$/unittest_file/is_prime_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_file/untest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="254" column="1" lean-forward="true" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_file/add_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_file/Model_Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_file/test_calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest_file/test_quick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlines.py" />
+    <entry file="file://$PROJECT_DIR$/time_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path.py" />
+    <entry file="file://$PROJECT_DIR$/threading_test_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -430,43 +532,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threading_test.py">
+    <entry file="file://$PROJECT_DIR$/Excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model_Class.py">
+    <entry file="file://$PROJECT_DIR$/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_test.py">
+    <entry file="file://$PROJECT_DIR$/send_mial_test/send_mail.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/is_prime_test.py">
+    <entry file="file://$PROJECT_DIR$/send_mial_test/send_ok.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/path.py">
+    <entry file="file://$PROJECT_DIR$/TK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_selenium.py">
+    <entry file="file://$PROJECT_DIR$/selenium_test_file/selenium_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/send_mial_test/mail_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#674#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_test_file/selenium_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
