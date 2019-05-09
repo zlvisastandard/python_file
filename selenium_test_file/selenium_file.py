@@ -1,17 +1,28 @@
 from selenium import webdriver
+
 import time
 
 driver = webdriver.Chrome()
 
-driver.maximize_window()
+driver.get("http://www.baidu.com")
 
-driver.get("https://cn.bing.com/")
+size = driver.find_element_by_id("kw").size
 
-driver.find_element_by_id("sb_form_q").send_keys(r"今日新闻")
+print(size)
 
-driver.find_element_by_id("sb_form_go").click()
+test = driver.find_element_by_id("cp").text
 
-time.sleep(3)
+print(test)
 
+attr = driver.find_element_by_id("kw").get_attribute("name")
+
+print(attr)
+
+result = driver.find_element_by_id("kw").is_displayed()
+
+print(result)
+
+
+time.sleep(2)
 
 driver.close()
