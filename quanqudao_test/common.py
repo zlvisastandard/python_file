@@ -25,7 +25,7 @@ class Com_fanc(object):
         sign = self.Dd5Sign(section,data)
         data = {"data":data,"sign":sign}
         print(self.Send_Post(data))
-        if  "prepay" in specy:
+        if  section == "section_swift" and "prepay" in specy:
             res_query = self.Swift_query()
             print(res_query)
             if res_query is not None:
@@ -33,6 +33,9 @@ class Com_fanc(object):
                 print(res_refund)
                 if res_refund is not  None:
                     print(self.Swift_refundquery())
+                else:
+                    pass
+            else:pass
         else:
             pass
 
@@ -50,6 +53,7 @@ class Com_fanc(object):
                 return data
             else:
                 print("pingan渠道的功能输入错误。")
+                sys.exit()
         elif section == "section_swift":
             # list = ["prepay","jspay"]
             if specy == "prepay":
@@ -82,7 +86,7 @@ class Com_fanc(object):
             response = requests.post(url=self.url,data=data).json()
             return json.dumps(response,indent=2,sort_keys=True,ensure_ascii=False)
         else:
-            return "输入的继续程序命令错误。。。"
+            return "swift_query输入的继续程序命令错误。。。"
 
     #当swift的退款
     def Swift_refund(self):
@@ -103,6 +107,8 @@ class Com_fanc(object):
             except KeyError as e:
                 print(e)
             return json.dumps(response,indent=2,sort_keys=True,ensure_ascii=False)
+        else:
+            return "swift_refund输入的继续程序命令错误。。。"
 
     #swift的退款查询
     def Swift_refundquery(self):
@@ -116,6 +122,8 @@ class Com_fanc(object):
             data = {"data":data,"sign":sign}
             response = requests.post(url=self.url,data=data).json()
             return json.dumps(response, indent=2, sort_keys=True, ensure_ascii=False)
+        else:
+            return "swift_refund_query输入的继续程序命令错误。。。"
 
     #生成时间戳
     def TimesTamp(self):
