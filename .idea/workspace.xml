@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e6d051-7fcf-4b58-9ef2-aaee3cf0602a" name="Default Changelist" comment="&quot;3&quot;">
-      <change afterPath="$PROJECT_DIR$/quanqudao_test/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanqudao_test/common_b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanqudao_test/conf.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanqudao_test/query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/配置_a/IpConfig.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/配置_a/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/配置_a/src.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/配置_b/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/配置_b/conf.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/配置/配置_b/pp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_mial_test/mail_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_mial_test/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/quanqudao_test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanqudao_test/common_b.py" beforeDir="false" afterPath="$PROJECT_DIR$/quanqudao_test/common_b.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quanqudao_test/common_b.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+            <state relative-caret-position="33">
+              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -228,7 +214,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quanqudao_test/common_b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quanqudao_test/common.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,7 +349,7 @@
       <workItem from="1557280117769" duration="11679000" />
       <workItem from="1557371823555" duration="16885000" />
       <workItem from="1557409413332" duration="1404000" />
-      <workItem from="1557451277457" duration="12506000" />
+      <workItem from="1557451277457" duration="13754000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;3&quot;">
       <created>1556607134536</created>
@@ -427,17 +413,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80265000" />
+    <option name="totallyTimeSpent" value="81513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13805436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.27831325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.071084335" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,7 +481,7 @@
     <SUITE FILE_PATH="coverage/python_file$process_test.coverage" NAME="process_test Coverage Results" MODIFIED="1556804614308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$mail_file.coverage" NAME="mail_file Coverage Results" MODIFIED="1557150037004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$Unittests_for_unit_test_1_mailLogin_test_login_02.coverage" NAME="Unittests for unit_test_1.mailLogin.test_login_02 Coverage Results" MODIFIED="1557113544137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_file$common_b.coverage" NAME="common_b Coverage Results" MODIFIED="1557468196149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quanqudao_test" />
+    <SUITE FILE_PATH="coverage/python_file$common_b.coverage" NAME="common_b Coverage Results" MODIFIED="1557469706761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quanqudao_test" />
     <SUITE FILE_PATH="coverage/python_file$is_prime_test.coverage" NAME="is_prime_test Coverage Results" MODIFIED="1557105673042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$test.coverage" NAME="test Coverage Results" MODIFIED="1557396908970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quanqudao_test" />
     <SUITE FILE_PATH="coverage/python_file$sele_.coverage" NAME="sele_键盘 Coverage Results" MODIFIED="1557295813692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test_file" />
@@ -759,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quanqudao_test/common_b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        <state relative-caret-position="33">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
