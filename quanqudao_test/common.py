@@ -13,6 +13,7 @@ config = configparser.ConfigParser()
 config.read(config_path)
 
 list_trade_no = []
+swift_refund_id = []
 
 class Com_fanc(object):
     def __init__(self):
@@ -25,8 +26,13 @@ class Com_fanc(object):
         data = {"data":data,"sign":sign}
         print(self.Send_Post(data))
         if  "prepay" in specy:
-            res = self.Swift_query()
-            print(res)
+            res_query = self.Swift_query()
+            print(res_query)
+            if res_query is not None:
+                res_refund = self.Swift_refund()
+                print(res_refund)
+                if res_refund is not  None:
+                    print(self.Swift_refundquery())
         else:
             pass
 
@@ -66,18 +72,50 @@ class Com_fanc(object):
 
     #当swift有查询时，获取trade_no，调取查询
     def Swift_query(self):
-        res = input("请输入go:")
+        res = input("请输入query_go:")
         if res == "go":
             result = ''.join(list_trade_no)
             data = {"merchant_id":config.get("section_swift","merchant"),"timestamp":self.TimesTamp(),"biz_type":"wx.query","biz_content":{"trade_no":result},"sign_type":"MD5"}
             data = json.dumps(data)
             sign = self.Dd5Sign("section_swift", data)
             data = {"data":data,"sign":sign}
-            response = requests.post(url=self.url,data=data)
-            return response.text
-
+            response = requests.post(url=self.url,data=data).json()
+            return json.dumps(response,indent=2,sort_keys=True,ensure_ascii=False)
         else:
             return "输入的继续程序命令错误。。。"
+
+    #当swift的退款
+    def Swift_refund(self):
+        res = input("请输入refun_go:")
+        if res == "go":
+            result = ''.join(list_trade_no)
+            data = {"merchant_id":config.get("section_swift","merchant"),"timestamp":self.TimesTamp(),"biz_type":"wx.refund","version":"2.0","biz_content":{"trade_no":result,"out_refund_no":self.Random_num()+"1","refund_amount":"0.01","notify_url":"http://allpaytest.visastandards.com/test/ReciveNotiy"},"sign_type":"MD5"}
+            data = json.dumps(data)
+            sign = self.Dd5Sign("section_swift",data)
+            data = {"data":data,"sign":sign}
+            response = requests.post(url=self.url,data=data).json()
+            try:
+                result = response["data"]
+                resu = json.loads(result)
+                resul = resu["biz_content"]
+                result_end = resul["refund_id"]
+                swift_refund_id.append(result_end)
+            except KeyError as e:
+                print(e)
+            return json.dumps(response,indent=2,sort_keys=True,ensure_ascii=False)
+
+    #swift的退款查询
+    def Swift_refundquery(self):
+        res = input("请输入refun_go:")
+        if res == "go":
+            result_no = ''.join(list_trade_no)
+            refund_id = ''.join(swift_refund_id)
+            data = {"merchant_id":config.get("section_swift","merchant"),"timestamp":self.TimesTamp(),"biz_type":"wx.refundquery","biz_content":{"trade_no":result_no,"refund_id":refund_id},"sign_type":"MD5"}
+            data = json.dumps(data)
+            sign = self.Dd5Sign("section_swift",data)
+            data = {"data":data,"sign":sign}
+            response = requests.post(url=self.url,data=data).json()
+            return json.dumps(response, indent=2, sort_keys=True, ensure_ascii=False)
 
     #生成时间戳
     def TimesTamp(self):
@@ -120,6 +158,6 @@ if __name__ == '__main__':
     res = Com_fanc()
     # res.Get_send_data("section_swift")
     # res.Get_send_data("section_pingan","jspay")
-    list = ["prepay","jspay","prepay","jspay","ccc","ddd"]
+    list = ["prepay"]
     for i in list:
         res.Get_send_data("section_swift",i)

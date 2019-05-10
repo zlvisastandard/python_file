@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e6d051-7fcf-4b58-9ef2-aaee3cf0602a" name="Default Changelist" comment="&quot;3&quot;">
-      <change beforePath="$PROJECT_DIR$/quanqudao_test/common_b.py" beforeDir="false" afterPath="$PROJECT_DIR$/quanqudao_test/common_b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanqudao_test/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/quanqudao_test/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanqudao_test/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/quanqudao_test/conf.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,29 +16,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quanqudao_test/conf.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quanqudao_test/common_b.py">
+        <entry file="file://$PROJECT_DIR$/quanqudao_test/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            <state relative-caret-position="242">
+              <caret line="98" column="41" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quanqudao_test/query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -105,9 +97,9 @@
         <option value="$PROJECT_DIR$/quanqudao_test/prepay.py" />
         <option value="$PROJECT_DIR$/配置/配置_b/pp.py" />
         <option value="$PROJECT_DIR$/quanqudao_test/query.py" />
-        <option value="$PROJECT_DIR$/quanqudao_test/common.py" />
-        <option value="$PROJECT_DIR$/quanqudao_test/conf.ini" />
         <option value="$PROJECT_DIR$/quanqudao_test/common_b.py" />
+        <option value="$PROJECT_DIR$/quanqudao_test/conf.ini" />
+        <option value="$PROJECT_DIR$/quanqudao_test/common.py" />
       </list>
     </option>
   </component>
@@ -178,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.common_b">
+  <component name="RunManager" selected="Python.common">
     <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_file" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,8 +305,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.common_b" />
         <item itemvalue="Python.common" />
+        <item itemvalue="Python.common_b" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.pp" />
         <item itemvalue="Python.src" />
@@ -349,7 +341,7 @@
       <workItem from="1557280117769" duration="11679000" />
       <workItem from="1557371823555" duration="16885000" />
       <workItem from="1557409413332" duration="1404000" />
-      <workItem from="1557451277457" duration="13754000" />
+      <workItem from="1557451277457" duration="18160000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;3&quot;">
       <created>1556607134536</created>
@@ -413,18 +405,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81513000" />
+    <option name="totallyTimeSpent" value="85919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13805436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.071084335" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.5566265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +467,7 @@
     <SUITE FILE_PATH="coverage/python_file$selenium_a__1_.coverage" NAME="selenium_a (1) Coverage Results" MODIFIED="1557284987894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test_file" />
     <SUITE FILE_PATH="coverage/python_file$threading_test.coverage" NAME="threading_test Coverage Results" MODIFIED="1556804644018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$selenium_file.coverage" NAME="selenium_file Coverage Results" MODIFIED="1557287371068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test_file" />
-    <SUITE FILE_PATH="coverage/python_file$common.coverage" NAME="common Coverage Results" MODIFIED="1557451358350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quanqudao_test" />
+    <SUITE FILE_PATH="coverage/python_file$common.coverage" NAME="common Coverage Results" MODIFIED="1557475397568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quanqudao_test" />
     <SUITE FILE_PATH="coverage/python_file$5_frame__2.coverage" NAME="5_frame_定位_2 Coverage Results" MODIFIED="1557299772468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_test_file" />
     <SUITE FILE_PATH="coverage/python_file$process_test.coverage" NAME="process_test Coverage Results" MODIFIED="1556804614308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_file$mail_file.coverage" NAME="mail_file Coverage Results" MODIFIED="1557150037004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -729,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quanqudao_test/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-262">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -739,15 +730,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quanqudao_test/conf.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quanqudao_test/common_b.py">
+    <entry file="file://$PROJECT_DIR$/quanqudao_test/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        <state relative-caret-position="242">
+          <caret line="98" column="41" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
